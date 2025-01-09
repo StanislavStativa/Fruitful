@@ -29,6 +29,7 @@ export const Default = (props: ProductCartProps): JSX.Element => {
 
   useEffect(() => {
     loadCartItems();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const loadCartItems = () => {
